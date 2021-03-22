@@ -1,0 +1,19 @@
+
+Study design:
+The data is collected from the website:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Code Book:
+
+activity_label: data frame containing the activity code and name
+features: data frame containing all the names of measurements performed
+subject: data frame containing the subject of each experiment
+
+set: data frame containing for each experiment (row) the measurements (col)
+activity: data frame containing for each experiment (row) the code of activity (col)
+activity_name: data frame containing for each experiment (row) the name of activity
+list_of_measurements: vector containing the index of columns where mean() or std() measurements have been performed
+
+mydata <- data frame containing for each experiment, the subject, the name of the activity and all the measurements (mean and std only)
+
+new_data <- data frame containing for each subject and activity type, the average of each measurement (mean and std only)
